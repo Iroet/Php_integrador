@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <section class="section-wrapper">
+      <!--Navbar-->
+      <nav class="nav-topbar" id="nav">
+        <div class="topbar-inner">
+          <div class="logo">
+            <h2>Conf Bs As</h2>
+          </div>
+          <div class="nav-btn">
+            <button class="btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <div class="nav-list">
+            <ul class="nav-links">
+              <li><a href="#home">Conferencia</a></li>
+              <li><a href="#oradores">Oradores</a></li>
+              <li><a href="#beach">Lugar y fechas</a></li>
+              <li><a href="#form">Conviertete en orador</a></li>
+              <li><a href="#"><span>Comprar tickets</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <!--Carrusel-->
+        <div  class="carrusel-section" id="home">
+          <div  class="carrusel-bg">
+          
+              <div   id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div  class="carousel-inner">
+                  <div  class="carousel-item active">
+                    <img  src="img/carrusel/ba1.jpg" alt="" />
+                  </div>
+                  <div class="carousel-item">
+                    <img   src="img/carrusel/ba2.jpg" alt="" />
+                  </div>
+                  <div class="carousel-item">
+                    <img  src="img/carrusel/ba3.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+           
+          </div>
+          <div  class="content">
+            <h2 class="text">
+              Conf Bs As
+            </h2>
+            <p>
+              Bs llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando un futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+            </p>
+            <div class="carrusel-btn">
+              <a href="#form" class="carru-btn-one"> Quiero ser orador</a>
+              <a href="#" class="carru-btn-two"> Comprar tickets</a>
+            </div>
+          </div>
+        </div>
+      <!--Oradores-->
+      <div class="cards-section" id="oradores">
+        <div class="container-service container-card div-offset">
+          <div class="service card">
+              <div class="text-service text-card">
+                  <p>Conoce a los</p>
+                  <h1>ORADORES</h1>
+              </div>
+              <div class="container-card-service container-box-card">
+                  <div class="card-service box-card">
+                      <img src="img/cards/steve.jpg" alt="">
+                      <h2>Steve Jobs</h2>
+                      <p>Steven Paul Jobs fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple y máximo accionista individual de The Walt Disney Company.</p>
+                      <a href="https://es.wikipedia.org/wiki/Steve_Jobs" target="_blank">
+                          <i class="fa-solid fa-arrow-right"></i>
+                      </a>
+                  </div>
+                  <div class="card-service box-card">
+                      <img src="img/cards/bill.jpg" alt="">
+                      <h2>Bill Gates</h2>
+                      <p>William Henry Gates III, conocido como Bill Gates, es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen.</p>
+                      <a href="https://es.wikipedia.org/wiki/Bill_Gates" target="_blank">
+                          <i class="fa-solid fa-arrow-right"></i>
+                      </a>
+                  </div>
+                  <div class="card-service box-card">
+                      <img src="img/cards/ada.jpeg" alt="">
+                      <h2>Ada Lovelace</h2>
+                      <p>Augusta Ada King, condesa de Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
+                      <a href="https://es.wikipedia.org/wiki/Ada_Lovelace" target="_blank">
+                          <i class="fa-solid fa-arrow-right"></i>
+                      </a>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Beach-->
+      <div class="beach-section" id="beach">
+        <div class="container">
+          <div class="beach-inner">
+            <div class="left">
+              <img src="img/carrusel/honolulu.jpg" alt="" />
+            </div>
+            <div class="right">
+              <div class="title">
+                <h2>
+                  Bs As - Octubre
+                </h2>
+              </div>
+              <div class="desc">
+                <p>
+                  Buenos Aires es la provincia y localidad mas grande del estado de Argentina. En los Estados Unidos, Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
+                </p>
+              </div>
+              <div class="button">
+                <a href="#beach">Conocé más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Form-->
+      <section class="form-seaction" id="form">
+        <div class="container">
+          <div class="form-text">
+            <p>Conviertete en un</p>
+            <span>ORADOR</span>
+            <h4>Anótate como orador para dar <a href="#">charla ignite</a>. Cuéntanos de que quieres hablar!</h4>
+          </div>
+          <div class="form-content">
+            <form action="">
+              <p class="form-block">
+                <input type="text" placeholder="Nombre">
+              </p>
+              <p class="form-block">
+                <input type="text" placeholder="Apellido">
+              </p>
+              <p class="form-block-area">
+                <textarea cols="30" rows="10" placeholder="Sobre que quieres hablar?"></textarea>
+              </p>
+              <br>
+              <label class="remember">Recuerda incluir un titulo para tu charla</label>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="footer-section">
+        <div>
+          <div class="inner-footer">
+            <p>
+              <ul>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="#">Contanos</a></li>
+                <li><a href="#">Prensa</a></li>
+                <li><a href="#">Conferencias</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Estudiantes</a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!--Go Top-->
+      <div class="to-top-bar">
+        <a href="#home">
+          <span class="text">Go Top</span>
+        </a>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
